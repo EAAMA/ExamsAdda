@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/relativeLayout"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/list_selector">
+
+	<!--  ListRow Left sied Thumbnail image -->
+	<LinearLayout
+		android:id="@+id/thumbnail"
+		android:layout_width="100dp"
+		android:layout_height="100dp"
+		android:background="@drawable/image_bg"
+		android:orientation="vertical"
+		android:padding="3dip"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:ignore="MissingConstraints">
+
+		<ImageView
+			android:id="@+id/practicePaperImage"
+			android:layout_width="100dp"
+			android:layout_height="100dip"
+			android:src="@drawable/practice_paper_1" />
+
+	</LinearLayout>
+
+	<!-- Title Of Song-->
+	<TextView
+		android:id="@+id/practicePaperNameInEnglishTextView"
+		android:layout_width="228dp"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="8dp"
+		android:layout_marginLeft="8dp"
+		android:layout_marginRight="8dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="4dp"
+		android:text="Practice Paper"
+		android:textColor="#040404"
+		android:textSize="15dip"
+		android:textStyle="bold"
+		android:typeface="sans"
+		app:layout_constraintEnd_toStartOf="@+id/practicePaperContinueImage"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toEndOf="@+id/thumbnail"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<!-- Artist Name -->
+	<TextView
+		android:id="@+id/practicePaperNameInRegionalTextView"
+		android:layout_width="227dp"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="8dp"
+		android:layout_marginEnd="8dp"
+		android:layout_marginLeft="8dp"
+		android:layout_marginRight="8dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="4dp"
+		android:text="అభ్యస పరీక్ష "
+		android:textColor="#343434"
+		android:textSize="15dip"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toStartOf="@+id/practicePaperContinueImage"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toEndOf="@+id/thumbnail"
+		app:layout_constraintTop_toBottomOf="@+id/practicePaperNameInEnglishTextView"
+		app:layout_constraintVertical_bias="0.0" />
+
+	<!-- Right end Duration -->
+
+	<!-- Right end Arrow -->
+	<ImageView
+		android:id="@+id/practicePaperContinueImage"
+		android:layout_width="wrap_content"
+		android:layout_height="69dp"
+		android:layout_marginBottom="8dp"
+		android:layout_marginEnd="16dp"
+		android:layout_marginRight="16dp"
+		android:layout_marginTop="8dp"
+		android:src="@drawable/arrow"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
