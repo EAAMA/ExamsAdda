@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Precautions Can Improve Survivability -->
+    <string-array name="before_earthquake">
+	    <item>
+	        Identify the most structurally secure areas of your workplace and home. 
+	        These are usually spots located away from windows and large moveable objects.
+	    </item>
+	    <item>
+	        Commit to memory these secure areas,
+	        which include spaces under desks,
+	        tables,
+	        or benches or door frames on inside walls,
+	        and be prepared to use them during an earthquake.
+	    </item>
+	    <item>
+	        Many workplaces hold earthquake emergency drills 
+	        and you should do the same at home with family members 
+	        if you live in an earthquake zone.
+	    </item>
+	    <item>
+	        At work and at home, 
+	        ensure that you’re not sitting or 
+	        standing in the path of an object such as a 
+	        large bookcase or filing cabinet, 
+	        which could tip over and crush you during a strong earthquake. 
+	        Heavy, tip-prone objects should be bolted or wired tightly to walls. 
+	        Never hang mirrors or other heavy objects above where people sit, 
+	        work or sleep.
+	    </item>
+	    <item>
+	        At home, prepare an earthquake emergency kit 
+	        containing non-perishable food, water, medicine, 
+	        first aid supplies, batteries, a flashlight, 
+	        a battery-powered or crank-powered radio, clothing and money.
+	    </item>
+	    <item>
+	        Take training in cardiopulmonary resuscitation (CPR) 
+	        and first aid.
+	    </item>
+      </string-array>
+    <!-- What Should I do During an Earthquake? -->
+    <string-array name="during_earthquake">
+	    <item>
+	        Immediately take cover under a heavy object such as a desk and 
+	        place your hands over your head. Brace yourself using your feet. 
+	        Don’t try to run outside, 
+	        where you might be struck by falling debris or power lines.
+	    </item>
+	    <item>
+	        If you’re outside when an earthquake strikes, 
+	        move to an open area away from buildings, 
+	        trees and power lines.
+	    </item>
+	    <item>
+	        If you’re near an ocean beach where a strong earthquake 
+	        may have generated a tsunami, 
+	        quickly move to higher ground.
+	    </item>
+	    <item>
+	        Stay away from elevators during an earthquake, 
+	        but if you’re inside one, 
+	        press the buttons for all floors and 
+	        get out as quickly as possible.
+	    </item>
+	    <item>
+	        If you’re in your car or work vehicle, 
+	        pull over away from bridges, 
+	        overpasses and buildings. 
+	        Stay in your vehicle until the quake ends.
+	    </item>
+	    <item>
+	        If you’re in a crowded space, 
+	        stay away from doors. 
+	        People may panic and bolt, 
+	        rampling others.
+	    </item>
+    </string-array>
+    <!-- What to do Once the Quake Ends -->
+    <string-array name="after_earthquake">
+	    <item>
+	        Rely only on emergency lighting or flashlights. 
+	        Don’t turn on any other lights, 
+	        since leaking natural gas lines could cause an explosion.
+	    </item>
+	    <item>
+	        Get outside to a clear, open area away from any structures 
+	        that might suddenly collapse. This area should be designated 
+	        as part of your employer’s emergency preparedness plan and 
+	        all workers should know to gather there for a head count.
+	    </item>
+	    <item>
+	        Check yourself and others for injuries and 
+	        call for necessary emergency help.
+	    </item>
+	    <item>
+	        Never re-enter a damaged building after an earthquake. 
+	        It could be weakened and collapse without warning hours or days later.
+	     </item>
+	     <item>
+	         Expect aftershocks in the hours and 
+	         days following an earthquake.
+	     </item>
+     </string-array>
+     <!-- What You Should Do - In the event of a Flood Watch or Warning:  -->
+     <string-array name="during_flood">
+	     <item>
+	         Follow announced radio, 
+	         television, or 
+	         emergency vehicle instructions.
+	     </item>
+	     <item>
+	         If a Flash Flood Warning was issued and you are in a mountainous area: 
+				 Climb to high ground as fast as possible. 
+				 Do not try to take your gear with you - your life is more important! 
+				 Do not try to run or drive downhill to outrace a flash flood.
+	     </item>
+	     <item>
+	         	If a Flood Warning was issued and you are in the mapped floodplain 
+	         	Turn off the electricity and gas if necessary. 
+	         	Read Flood Safety Outdoors on the back cover.
+	         	Lock your doors and evacuate to higher ground.
+	         	If you do not have a safe place to stay on high ground,
+	         	listen to the radio or TV for information on public shelter locations 
+	     </item>
+	     <item>
+	         If you are not in the mapped floodplain, but your basement floods: 
+				 Turn off the basement electricity. 
+				 Turn off the gas, if you expect the pilot light to be flooded. 
+				 Move valuables upstairs. 
+				 Stay out of the basement, if floodwater is touching the house outside
+	     </item>
+     </string-array>
+     <!-- After the Flood  -->
+     <string-array name="after_flood">
+	     <item >
+	         Keep the family together. 
+	         Togetherness provides 	mutual support. 
+	     </item>
+	     <item>
+	         Rest often and eat well. You are more likely to 
+			 suffer from stress and health problems 
+			 when you are weak.
+	     </item>
+	     <item>
+	         Set a manageable schedule. 
+	         Make a prioritized 
+	         list of jobs to do one at a time.
+	     </item>
+	     <item>
+	         Stay healthy. When you work in an area that has been flooded, 
+	         you probably will be exposed to dangerous chemicals and germs. 
+	         Minimize contact with floodwater and debris by wearing protective clothing, 
+	         like rubber boots and gloves, a mask or respirator. 
+	     </item>
+	     <item>
+	         Flood proof as you rebuild. 
+	         Nobody likes being subject to the whims of nature. 
+	         Preparing for a future flood can increase your sense of control over your destiny. 
+	     </item>
+	</string-array>
+</resources>

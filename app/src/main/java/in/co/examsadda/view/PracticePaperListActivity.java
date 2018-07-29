@@ -65,7 +65,9 @@ public class PracticePaperListActivity extends AppCompatActivity implements Adap
      */
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        String url = "https://developers.google.com/search/web?v=1.0&q={query}";
+
+        startActivity( new Intent( this, ExamActivity.class ) );
+    /*    String url = "https://developers.google.com/search/web?v=1.0&q={query}";
 
 // Create a new RestTemplate instance
         RestTemplate restTemplate = new RestTemplate();
@@ -75,6 +77,6 @@ public class PracticePaperListActivity extends AppCompatActivity implements Adap
 
 // Make the HTTP GET request, marshaling the response to a String
         String result = restTemplate.getForObject(url, String.class, "Android");
-        Toast.makeText( this,result,Toast.LENGTH_LONG ).show();
+        Toast.makeText( this,result,Toast.LENGTH_LONG ).show();*/
     }
 }

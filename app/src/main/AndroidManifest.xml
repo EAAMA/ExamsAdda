@@ -24,6 +24,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".view.PracticePaperListActivity"></activity>
+        <activity android:name=".view.ExamActivity"></activity>
+        <activity android:name=".view.SectionActivity"></activity>
     </application>
 
 </manifest>
